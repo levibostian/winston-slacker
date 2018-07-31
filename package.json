@@ -1,7 +1,7 @@
 {
-  "name": "winston-slacker",
-  "version": "1.0.3",
-  "description": "Slack integration for Winston",
+  "name": "winston-slack-logger",
+  "version": "1.0.0",
+  "description": "Slack integration for Winston 3",
   "main": "index.js",
   "scripts": {
     "lint": "./node_modules/eslint/bin/eslint.js .",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/meerkats/winston-slacker.git"
+    "url": "git+https://github.com/levibostian/winston-slacker.git"
   },
   "keywords": [
     "slack",
@@ -20,12 +20,12 @@
     "meerkats",
     "logger"
   ],
-  "author": "Meerkats <develop@meerkats.com.au> (http://meerkats.com.au)",
+  "author": "Meerkats <develop@meerkats.com.au> (http://meerkats.com.au), Levi Bostian <levi.bostian@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/meerkats/winston-slacker/issues"
+    "url": "https://github.com/levibostian/winston-slacker/issues"
   },
-  "homepage": "https://github.com/meerkats/winston-slacker#readme",
+  "homepage": "https://github.com/levibostian/winston-slacker#readme",
   "dependencies": {
     "request": "^2.87.0",
     "util-extend": "^1.0.3",
